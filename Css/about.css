@@ -1,0 +1,41 @@
+
+body{
+  
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    background-color: #000; 
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  .about-section {
+    padding-top: 1%;
+    text-align: center; 
+    color: white;
+    background-color: black;
+    padding-bottom: 5%;
+    margin: 50px 300px;
+  }
+  .about-section h1{
+    text-align: left;
+  }
+  .about-section p{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .readmore{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+	  padding: 10px 30px;
+    background-color: #6B0303;
+  }
+  .readmore:hover{
+    background-color: #222222;
+  }

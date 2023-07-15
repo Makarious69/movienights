@@ -1,0 +1,61 @@
+.contain{
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+}
+table{
+  margin-left: 400px;
+  width:100%;
+}
+/* entire container, keeps perspective */
+	.flip-container {
+	align-items: center;
+	margin-left: 3%;
+	}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 200px;
+	height: 200px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* front pane, placed above back */
+.front {
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+  background-color: #121212;
+  border-radius: 50%;
+
+}
+.back a{
+  text-decoration: none;
+}
+.back h2{
+  text-align: center;
+margin-top: 40%;
+    margin-left: 10px;
+    color: #6B0303;
+}
